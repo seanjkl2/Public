@@ -1,0 +1,6 @@
+(12.0) (Batman) (Super Hero) (A testing movie about batman and shit) (12.0) (125) (R) (800)
+(10.0) (Batman) (Super Hero) (A testing movie about batman and shit) (12.0) (125) (R) (1200)
+(10.0) (Batman Begins) (Super Hero) (Batman Movie) (13.0) (125) (G) (800)
+(15.0) (Batman Begins) (Super Hero) (Batman Movie) (13.0) (125) (G) (900)
+(20.0) (MineCraft legend of Steve) (Kids) (Kid Friendly chick flick) (14.0) (180) (R) (2200)
+(14.99) (MineCraft steve dies) (Kids) (slightly less kid friendly chick flick) (20.0) (210) (PG13) (2300)
