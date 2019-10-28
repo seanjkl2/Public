@@ -197,31 +197,7 @@ public class PaymentDriver {
 		System.out.println(dtf.format(now));
 		System.out.println(test.getDayOfWeek());
 		TheaterDriver testDriver = new TheaterDriver();
-		
-		//this will create duplicates of movies because they are imported from the txt files.
-		Movie batman = new Movie("Batman Begins", "Super Hero");
-		Movie minecraft = new Movie("MineCraft legend of Steve", "Kids");
-		Movie minecraft2 = new Movie("MineCraft steve dies", "Kids");
-		Movie notMinecraft = new Movie("Words and Stuff", "Action");
-		Movie batman2 = new Movie("Batman", "Super Hero", "A testing movie about batman and shit", 12, 125, "R");
-		
-		testDriver.setAuthenticated(true);
-		testDriver.addMovie(batman2);
-		testDriver.addMovie(batman);
-		testDriver.addMovie(minecraft);
-		testDriver.addMovie(minecraft2);
-		testDriver.addMovie(notMinecraft);
-		
-		testDriver.addPersonToList(new Person("test", "test", 19));
-		
-		testDriver.addTicketToList(new MovieTicket(12.00, batman2, 800));
-		testDriver.addTicketToList(new MovieTicket(10.00, batman2, 1200));
-		testDriver.addTicketToList(new MovieTicket(10.00, batman, 800));
-		testDriver.addTicketToList(new MovieTicket(15.00, batman, 800));
-		testDriver.addTicketToList(new MovieTicket(20.00, minecraft, 2200));
-		testDriver.addTicketToList(new MovieTicket(14.99, minecraft2, 2300));
-		
-		testDriver.startScreen();
+			testDriver.startScreen();
 		
 	}
 	

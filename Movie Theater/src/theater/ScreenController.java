@@ -107,8 +107,6 @@ public class ScreenController {
 	}
 	
 	public static void main(String[] args) throws IOException {
-		TheaterDriver testDriver = new TheaterDriver();
-		testDriver.startScreen();
 	}
 
 }

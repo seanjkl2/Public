@@ -481,6 +481,5 @@ public class TheaterDriver {
 		TheaterDriver testDriver = new TheaterDriver();
 		testDriver.startScreen();
 		
-		
 	}
 }
